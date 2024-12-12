@@ -69,22 +69,46 @@ public class ClubDAO {
             e.printStackTrace();
         }
     }
-
     public void deleteClub(Scanner scanner) {
         System.out.print("Enter Club ID to delete: ");
         int clubId = scanner.nextInt();
 
-        String query = "DELETE FROM Club WHERE ClubID = ?";
-        try (PreparedStatement pstmt = conn.prepareStatement(query)) {
-            pstmt.setInt(1, clubId);
-            int rowsAffected = pstmt.executeUpdate();
-            if (rowsAffected > 0) {
-                System.out.println("Club deleted successfully!");
-            } else {
-                System.out.println("Club not found.");
+        try {
+            // Step 1: Delete dependent data in Proceed table
+            String deleteProceedQuery = "DELETE FROM Proceed WHERE ClubID = ?";
+            try (PreparedStatement pstmt = conn.prepareStatement(deleteProceedQuery)) {
+                pstmt.setInt(1, clubId);
+                pstmt.executeUpdate();
+            }
+
+            // Step 2: Delete dependent data in Make_A_Suggestion table
+            String deleteSuggestionsQuery = "DELETE FROM Make_A_Suggestion WHERE MemberID IN (SELECT MemberID FROM Member WHERE ClubID = ?)";
+            try (PreparedStatement pstmt = conn.prepareStatement(deleteSuggestionsQuery)) {
+                pstmt.setInt(1, clubId);
+                pstmt.executeUpdate();
+            }
+
+            // Step 3: Delete dependent data in Member table
+            String deleteMembersQuery = "DELETE FROM Member WHERE ClubID = ?";
+            try (PreparedStatement pstmt = conn.prepareStatement(deleteMembersQuery)) {
+                pstmt.setInt(1, clubId);
+                pstmt.executeUpdate();
+            }
+
+            // Step 4: Delete data in Club table
+            String deleteClubQuery = "DELETE FROM Club WHERE ClubID = ?";
+            try (PreparedStatement pstmt = conn.prepareStatement(deleteClubQuery)) {
+                pstmt.setInt(1, clubId);
+                int rowsAffected = pstmt.executeUpdate();
+                if (rowsAffected > 0) {
+                    System.out.println("Club and its associated data deleted successfully!");
+                } else {
+                    System.out.println("Club not found.");
+                }
             }
         } catch (SQLException e) {
             e.printStackTrace();
         }
     }
+
 }
