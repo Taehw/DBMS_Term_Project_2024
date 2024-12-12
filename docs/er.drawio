@@ -544,8 +544,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="DB schema의 복사본" id="eI_3CUIgtIz0F-Wx5c-o">
-    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+  <diagram name="2NF" id="eI_3CUIgtIz0F-Wx5c-o">
+    <mxGraphModel dx="954" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="YbPO6E5GEMQuWTKtd4UB-0" />
         <mxCell id="YbPO6E5GEMQuWTKtd4UB-1" parent="YbPO6E5GEMQuWTKtd4UB-0" />
@@ -588,7 +588,7 @@
         <mxCell id="YbPO6E5GEMQuWTKtd4UB-14" value="PhoneNumber" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YbPO6E5GEMQuWTKtd4UB-1">
           <mxGeometry x="520" y="400" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YbPO6E5GEMQuWTKtd4UB-15" value="Type" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YbPO6E5GEMQuWTKtd4UB-1">
+        <mxCell id="YbPO6E5GEMQuWTKtd4UB-15" value="MemberType" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YbPO6E5GEMQuWTKtd4UB-1">
           <mxGeometry x="760" y="400" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YbPO6E5GEMQuWTKtd4UB-16" value="Major" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YbPO6E5GEMQuWTKtd4UB-1">
@@ -619,52 +619,52 @@
           <mxGeometry x="140" y="570" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YbPO6E5GEMQuWTKtd4UB-25" value="&lt;u&gt;RoomID&lt;/u&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YbPO6E5GEMQuWTKtd4UB-1">
-          <mxGeometry x="160" y="830" width="120" height="60" as="geometry" />
+          <mxGeometry x="160" y="810" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YbPO6E5GEMQuWTKtd4UB-26" value="Date" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YbPO6E5GEMQuWTKtd4UB-1">
-          <mxGeometry x="280" y="830" width="120" height="60" as="geometry" />
+        <mxCell id="YbPO6E5GEMQuWTKtd4UB-26" value="&lt;u&gt;Date&lt;/u&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YbPO6E5GEMQuWTKtd4UB-1">
+          <mxGeometry x="280" y="810" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YbPO6E5GEMQuWTKtd4UB-27" value="Personin&lt;div&gt;charge&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YbPO6E5GEMQuWTKtd4UB-1">
-          <mxGeometry x="400" y="830" width="120" height="60" as="geometry" />
+          <mxGeometry x="400" y="810" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YbPO6E5GEMQuWTKtd4UB-28" value="&lt;font color=&quot;#3333ff&quot;&gt;AdminStaffID&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YbPO6E5GEMQuWTKtd4UB-1">
-          <mxGeometry x="520" y="830" width="120" height="60" as="geometry" />
+          <mxGeometry x="640" y="810" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YbPO6E5GEMQuWTKtd4UB-29" value="NumberOf&lt;br&gt;EmptyRooms" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YbPO6E5GEMQuWTKtd4UB-1">
-          <mxGeometry x="640" y="830" width="120" height="60" as="geometry" />
+          <mxGeometry x="520" y="810" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YbPO6E5GEMQuWTKtd4UB-30" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Rented Room&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="YbPO6E5GEMQuWTKtd4UB-1">
-          <mxGeometry x="130" y="790" width="150" height="30" as="geometry" />
+          <mxGeometry x="130" y="770" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YbPO6E5GEMQuWTKtd4UB-31" value="&lt;u&gt;ClubId&lt;/u&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YbPO6E5GEMQuWTKtd4UB-1">
-          <mxGeometry x="160" y="1030" width="120" height="60" as="geometry" />
+          <mxGeometry x="160" y="1070" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YbPO6E5GEMQuWTKtd4UB-32" value="&lt;u&gt;ProjectID&lt;/u&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YbPO6E5GEMQuWTKtd4UB-1">
-          <mxGeometry x="280" y="1030" width="120" height="60" as="geometry" />
+          <mxGeometry x="280" y="1070" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YbPO6E5GEMQuWTKtd4UB-33" value="ProjectName" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YbPO6E5GEMQuWTKtd4UB-1">
-          <mxGeometry x="400" y="1030" width="120" height="60" as="geometry" />
+          <mxGeometry x="400" y="1070" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YbPO6E5GEMQuWTKtd4UB-34" value="Goal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YbPO6E5GEMQuWTKtd4UB-1">
-          <mxGeometry x="520" y="1030" width="120" height="60" as="geometry" />
+          <mxGeometry x="520" y="1070" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YbPO6E5GEMQuWTKtd4UB-35" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Proceed&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="YbPO6E5GEMQuWTKtd4UB-1">
-          <mxGeometry x="140" y="990" width="90" height="30" as="geometry" />
+          <mxGeometry x="140" y="1030" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YbPO6E5GEMQuWTKtd4UB-36" value="&lt;u&gt;SuggestionID&lt;/u&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YbPO6E5GEMQuWTKtd4UB-1">
-          <mxGeometry x="160" y="1250" width="120" height="60" as="geometry" />
+          <mxGeometry x="160" y="1290" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YbPO6E5GEMQuWTKtd4UB-37" value="Content" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YbPO6E5GEMQuWTKtd4UB-1">
-          <mxGeometry x="520" y="1250" width="120" height="60" as="geometry" />
+          <mxGeometry x="280" y="1290" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YbPO6E5GEMQuWTKtd4UB-38" value="&lt;font color=&quot;#3333ff&quot;&gt;EmployeeID&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YbPO6E5GEMQuWTKtd4UB-1">
-          <mxGeometry x="280" y="1250" width="120" height="60" as="geometry" />
+          <mxGeometry x="400" y="1290" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YbPO6E5GEMQuWTKtd4UB-39" value="&lt;font color=&quot;#3333ff&quot;&gt;MemberID&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YbPO6E5GEMQuWTKtd4UB-1">
-          <mxGeometry x="400" y="1250" width="120" height="60" as="geometry" />
+          <mxGeometry x="520" y="1290" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YbPO6E5GEMQuWTKtd4UB-40" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Make_A_Suggestion&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="YbPO6E5GEMQuWTKtd4UB-1">
-          <mxGeometry x="140" y="1210" width="180" height="30" as="geometry" />
+          <mxGeometry x="140" y="1250" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YbPO6E5GEMQuWTKtd4UB-41" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.45;entryY=0.975;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="YbPO6E5GEMQuWTKtd4UB-1" source="YbPO6E5GEMQuWTKtd4UB-42" target="YbPO6E5GEMQuWTKtd4UB-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -676,7 +676,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YbPO6E5GEMQuWTKtd4UB-42" value="ClubID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YbPO6E5GEMQuWTKtd4UB-1">
+        <mxCell id="YbPO6E5GEMQuWTKtd4UB-42" value="&lt;font color=&quot;#3333ff&quot;&gt;ClubID&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YbPO6E5GEMQuWTKtd4UB-1">
           <mxGeometry x="880" y="400" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YbPO6E5GEMQuWTKtd4UB-43" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="YbPO6E5GEMQuWTKtd4UB-1" source="YbPO6E5GEMQuWTKtd4UB-28" target="YbPO6E5GEMQuWTKtd4UB-18">
@@ -684,7 +684,7 @@
             <mxPoint x="806" y="808" as="sourcePoint" />
             <mxPoint x="80" y="670" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="580" y="740" />
+              <mxPoint x="700" y="740" />
               <mxPoint x="220" y="740" />
             </Array>
           </mxGeometry>
@@ -694,8 +694,7 @@
             <mxPoint x="500" y="1170" as="sourcePoint" />
             <mxPoint x="1020" y="590" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="460" y="1190" />
-              <mxPoint x="540" y="1190" />
+              <mxPoint x="580" y="1190" />
               <mxPoint x="740" y="1190" />
               <mxPoint x="1050" y="1190" />
               <mxPoint x="1050" y="530" />
@@ -708,9 +707,10 @@
             <mxPoint x="300" y="1455" as="sourcePoint" />
             <mxPoint x="60" y="665" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="340" y="1170" />
-              <mxPoint x="60" y="1170" />
-              <mxPoint x="60" y="710" />
+              <mxPoint x="460" y="1200" />
+              <mxPoint x="90" y="1200" />
+              <mxPoint x="90" y="950" />
+              <mxPoint x="90" y="710" />
               <mxPoint x="220" y="710" />
             </Array>
           </mxGeometry>
@@ -720,13 +720,32 @@
             <mxPoint x="310" y="1050" as="sourcePoint" />
             <mxPoint x="210" y="260" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="238" y="970" />
-              <mxPoint x="30" y="970" />
+              <mxPoint x="238" y="1010" />
+              <mxPoint x="130" y="1010" />
+              <mxPoint x="30" y="1010" />
               <mxPoint x="30" y="510" />
               <mxPoint x="30" y="320" />
               <mxPoint x="214" y="320" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="QbKE28ErNiuw_3WYh9G--0" value="&lt;u&gt;RoomID&lt;/u&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YbPO6E5GEMQuWTKtd4UB-1">
+          <mxGeometry x="160" y="930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QbKE28ErNiuw_3WYh9G--1" value="Date" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YbPO6E5GEMQuWTKtd4UB-1">
+          <mxGeometry x="280" y="930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QbKE28ErNiuw_3WYh9G--2" value="Personin&lt;div&gt;charge&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YbPO6E5GEMQuWTKtd4UB-1">
+          <mxGeometry x="400" y="930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QbKE28ErNiuw_3WYh9G--3" value="&lt;font color=&quot;#3333ff&quot;&gt;AdminStaffID&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YbPO6E5GEMQuWTKtd4UB-1">
+          <mxGeometry x="520" y="930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QbKE28ErNiuw_3WYh9G--4" value="NumberOf&lt;br&gt;EmptyRooms" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YbPO6E5GEMQuWTKtd4UB-1">
+          <mxGeometry x="640" y="930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QbKE28ErNiuw_3WYh9G--5" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Rented Room&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="YbPO6E5GEMQuWTKtd4UB-1">
+          <mxGeometry x="130" y="900" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
