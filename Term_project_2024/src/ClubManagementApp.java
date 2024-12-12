@@ -1,15 +1,14 @@
 import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.Scanner;
 
 public class ClubManagementApp {
-    private static final String DB_URL = "jdbc:mysql://192.168.56.101:4567/ClubManagement";
-    private static final String DB_USER = "tkim"; // MySQL 사용자 이름
-    private static final String DB_PASSWORD = "taehwa8508"; // MySQL 비밀번호
-
     public static void main(String[] args) {
-        try (Connection conn = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD)) {
+        Connection conn = null;
+
+        try {
+            // 데이터베이스 연결
+            conn = DBconnection.getConnection();
             System.out.println("Database connected successfully!");
             ClubDAO clubDAO = new ClubDAO(conn);
             MemberDAO memberDAO = new MemberDAO(conn);
@@ -46,6 +45,9 @@ public class ClubManagementApp {
             }
         } catch (SQLException e) {
             e.printStackTrace();
+        } finally {
+            // 데이터베이스 연결 종료
+            DBconnection.closeConnection(conn);
         }
     }
 }
